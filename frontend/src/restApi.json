@@ -20,81 +20,39 @@
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus officia qui repellat." 
             }
         ],
-        "dishes": [
-            {
-                "id": 1,
-                "image": "./dinner1.jpeg",
-                "title": "ROASTED LAMB RUMP",
-                "category": "Dinner"
-            },
-            {
-                "id": 2,
-                "image": "./dinner2.png",
-                "title": "CITRUS CURED SALMON",
-                "category": "Dinner"
-            },
-            {
-                "id": 3,
-                "image": "./breakfast1.png",
-                "title": "PAN SEARED SEA BASS",
-                "category": "Breakfast"
-            },
-            {
-                "id": 4,
-                "image": "./dinner3.png",
-                "title": "STUFFED STRAWBERRY",
-                "category": "Dinner"
-            },
-            {
-                "id": 5,
-                "image": "./lunch1.png",
-                "title": "BEEF BURGER MEAL",
-                "category": "Lunch"
-            },
-            {
-                "id": 6,
-                "image": "./dinner4.png",
-                "title": "MUSSELS SOUP",
-                "category": "Dinner"
-            },
-            {
-                "id": 7,
-                "image": "./dinner5.png",
-                "title": "ITALIAN SPAGHETTI",
-                "category": "Dinner"
-            },
-            {
-                "id": 8,
-                "image": "./dinner6.png",
-                "title": "GRILLED FISH",
-                "category": "Dinner"
-            }
-        ],
+       
         "team": [
             {
                 "id": 1,
-                "image": "./team_member_1.png",
-                "name": "JOHNATHAN TYLER",
-                "designation": "Founder & Head Chef"
+                "image": "https://t4.ftcdn.net/jpg/11/46/26/09/240_F_1146260924_jrw7uMEZDRZbMojeloHw6LQNfl3QlOq3.jpg",
+                "name": "MAHIMA MISHRA",
+                "designation": "Backend Team Member"
             },
             {
                 "id": 2,
-                "image": "./team_member_2.png",
-                "name": "WADE WARREN",
-                "designation": "Sous Chef"
+                "image": "https://t4.ftcdn.net/jpg/11/46/26/09/240_F_1146260924_jrw7uMEZDRZbMojeloHw6LQNfl3QlOq3.jpg",
+                "name": "HIMANSHI GOYAL",
+                "designation": "Frontend Team Member"
             },
             {
                 "id": 3,
-                "image": "./team_member_3.png",
-                "name": "JHON DOE",
-                "designation": "Fast Food Chef"
+               "image": "https://t4.ftcdn.net/jpg/11/46/26/09/240_F_1146260924_jrw7uMEZDRZbMojeloHw6LQNfl3QlOq3.jpg",
+                "name": "ADITYA YADAV",
+                "designation": "Backend Team Member"
             },
             {
                 "id": 4,
-                "image": "./team_member_4.png",
-                "name": "ALEX COAL",
-                "designation": "Senior Chef"
+                "image": "https://t4.ftcdn.net/jpg/11/46/26/09/240_F_1146260924_jrw7uMEZDRZbMojeloHw6LQNfl3QlOq3.jpg",
+                "name": "RADHIKA SHARMA",
+                "designation": "Frontend Team Member"
+            },
+             {
+                "id": 4,
+                "image": "https://t4.ftcdn.net/jpg/11/46/26/09/240_F_1146260924_jrw7uMEZDRZbMojeloHw6LQNfl3QlOq3.jpg",
+                "name": "RADHIKA MITTAL",
+                "designation": "Frontend Team Member"
             }
+
         ],
         "testimonials": [
             {

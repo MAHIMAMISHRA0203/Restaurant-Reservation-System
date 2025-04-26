@@ -1,8 +1,9 @@
 import express from "express";
+import send_reservation from "../controller/reservation.js";
 
-import { sendReservation } from "../controller/reservation.js";
-const router=express.Router();
+const router = express.Router();
 
+router.post("/send", send_reservation);
+// axios.post("http://localhost:4000/api/v1/reservation/send", data);
 
-router.post("/send",sendReservation);
-export  default router;
+export default router;
