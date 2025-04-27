@@ -1,0 +1,28 @@
+.menu-page {
+  min-height: 100vh;
+  background-color: #1a1a1a;
+}
+
+.menu-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style for the menu button in navbar */
+.menuBtn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.menuBtn:hover {
+  background: white;
+  color: #1a1a1a;
+}

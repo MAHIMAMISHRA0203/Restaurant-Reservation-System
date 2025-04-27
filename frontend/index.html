@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <style>
+      /* Hide Cascade development tools */
+      #cascade-dev-tools,
+      div[style*="position: fixed"][style*="bottom: 0"],
+      div[style*="position: fixed"][style*="z-index: 9999"],
+      div[style*="background: rgb(36, 36, 36)"],
+      div[style*="position: fixed"][style*="right: 0"] {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Disable development messages and tools
+      window.addEventListener('load', function() {
+        // Remove Cascade development tools
+        setInterval(function() {
+          const elements = document.querySelectorAll('div[style*="position: fixed"][style*="bottom: 0"], div[style*="position: fixed"][style*="right: 0"]');
+          elements.forEach(function(el) {
+            el.remove();
+          });
+        }, 100);
+      });
+      
+      // Disable React dev tools
+      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = { isDisabled: true };
+      
+      // Prevent error overlays
+      window.addEventListener('error', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+      });
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

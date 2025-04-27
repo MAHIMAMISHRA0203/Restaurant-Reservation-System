@@ -1,0 +1,14 @@
+/* Hide development overlay */
+#root > div[data-overlay-container="true"] {
+  display: none !important;
+}
+
+/* Hide any Vite-related overlays */
+div[style*="position: fixed"][style*="z-index: 9999"] {
+  display: none !important;
+}
+
+/* Hide error overlays */
+div[style*="background-color: rgba(0, 0, 0, 0.5)"] {
+  display: none !important;
+}

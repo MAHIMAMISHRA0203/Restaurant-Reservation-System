@@ -1,0 +1,50 @@
+/* Hide development messages */
+#vite-dev-overlay,
+[data-vite-dev-id],
+[data-overlay-container="true"],
+#webpack-dev-server-client-overlay,
+[style*="position: fixed"][style*="z-index: 9999"],
+[style*="background-color: rgba(0, 0, 0, 0.5)"] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
